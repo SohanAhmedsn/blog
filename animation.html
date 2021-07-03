@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        /*
+        Animation:
+        @keyframes
+        animation-name
+        animation-duration
+        animation-delay
+        animation-iteration-count
+        animation-direction
+        animation-timing-function
+        animation-fill mode
+        animation
+        
+        */
+
+        div {
+            width: 100px;
+            height: 100px;
+            background-color: green;
+            animation-name: example;
+            animation-duration: 4s;
+        }
+
+        @keyframes example {
+            from {background-color: red;}
+            to {background-color: yellow;}
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <p><b>Note:</b>This example does not work in internet Explorer 9 and earlier version.</p>
+
+    <div></div>
+
+<p><b>Note:</b> When an animation is finished, it changes back to its original style.</p>
+    
+</body>
+</html>
